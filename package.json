@@ -1,0 +1,30 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "Building a to-do-app with node.js, express, and MongoDB",
+  "main": "callback.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scy0334/node-crash-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scy0334/node-crash-course/issues"
+  },
+  "homepage": "https://github.com/scy0334/node-crash-course#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.6",
+    "morgan": "^1.10.0"
+  }
+}
